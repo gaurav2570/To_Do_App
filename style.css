@@ -1,57 +1,43 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
 }
 .container{
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(156, 222, 230);
+    height: 45vh;
+    width: 40vw;
+    box-shadow: 4px 5px 6px;
+}
+.header{
+    text-align: center;
     padding: 10px;
+    font-size: 1.7em;
+    font-weight: 900;
+    border-bottom: 0.5px solid white;
+    margin-bottom: 20px;
 }
-.todo-app{
-    width: 100%;
-    max-width: 540px;
-    background-color: #fff;
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
-    border-radius: 10px;
-}
-.todo-app h2{
-    color: #002765;
+.addTask{
     display: flex;
-    align-items: center;
-    margin: 20px;
-}
-.todo-app h2 img{
-    width: 30px;
-    margin-left: 10px;
-}
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #edeef0;
-    border-radius: 30px;
-    padding-left: 20px;
-    margin-bottom: 25px;
+    justify-content: space-evenly;
 }
 input{
-    flex: 1;
-    border: none;
-    outline: none;
-    background: transparent;
-    padding: 10px;
-    font-weight: 14px;
+    padding: 7px;
+    border-radius: 5px;
+}
+button:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
 }
 button{
-    border: none;
-    outline: none;
-    padding: 16px 50px;
-    background: #ff5945;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 40px;
+    background-color: rgb(244, 242, 153);
+    color: rgb(11, 11, 11);
+    padding: 4px;
+    border-radius: 5px;
 }
