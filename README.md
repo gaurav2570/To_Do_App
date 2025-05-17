@@ -1,0 +1,1 @@
+The To-Do List is a simple and effective tool designed to help users organize tasks, manage workloads, and improve productivity.It helps user manage daily tasks easily. You can add, delete, and mark tasks as complete.
